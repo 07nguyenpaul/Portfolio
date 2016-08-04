@@ -1,0 +1,388 @@
+html, body{
+  font-family: 'Slabo 27px', serif;
+  font-weight: 200;
+  background-color: #4F8385;
+  margin: 6px;
+  position: relative;
+}
+
+h1 {
+  font-size: 300%;
+  margin-bottom: 10px;
+  margin-left: 42px;
+}
+
+h2 {
+  font-size: 100%;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+/* HEADER*/
+header{
+  background: #4F8385;
+  border-bottom: 3px solid #3D6566;
+  height: 80px;
+  text-align: center;
+}
+
+header h1{
+  float: left;
+  background: url("../photos/ninja.png") no-repeat;
+  margin-left: 12px;
+  margin-top: 6px;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+}
+
+nav {
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 12px 12px 0;
+}
+
+nav a {
+  color: white;
+  font-size: 150%;
+  text-decoration: none;
+}
+
+/*HERO SECTION*/
+#hero{
+  text-align: center;
+  background: url("../photos/colorado.jpg") no-repeat;
+  background-size: cover;
+  padding: 215px 0;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 1%;
+}
+
+#hero h2{
+  color: #595651;
+  font-style: italic;
+  font-size: 200%;
+  margin:5px auto;
+  width: 90%;
+  position: relative;
+  bottom: 95px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* PROJECTS: CONTAINER*/
+.header-projects {
+  font-size: 100px;
+}
+
+.container-content {
+  background-color: #3D6566;
+  outline: 3px solid white;
+  width: 90%;
+  height: 2750px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+
+.container-content article {
+  background-color: #C4BDB1;
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  outline: 3px solid white;
+  width: 850px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+#project-1 {
+height: 540px;
+position: relative;
+top: 30px;
+}
+
+#project-2 {
+  height: 450px;
+  position: relative;
+  top: 60px;
+}
+
+#project-2 img {
+  width: 300px;
+  height: 175px;
+}
+
+#project-3 {
+  height: 440px;
+  position: relative;
+  top: 90px;
+}
+
+#project-3 img {
+  width: 150px;
+  height: 175px;
+}
+
+#project-4 {
+  height: 490px;
+  position: relative;
+  top: 120px;
+}
+
+#project-4 img {
+  width: 300px;
+  height: 175px;
+}
+
+#project-5 {
+  height: 550px;
+  position: relative;
+  top: 150px;
+}
+
+.container-content img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  margin: 15px 0px;
+  border: 3px solid white;
+}
+
+.container-content p {
+  border-top: 2px solid #0D191C;
+  border-bottom: 2px solid #0D191C;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+a:link {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 25px;
+}
+
+.container-content a {
+  color: #3E606F;
+}
+
+/* ABOUT PAGE */
+.container-bio {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.main-content,
+.secondary-content {
+  height: 600px;
+  padding-top: 0;
+}
+
+.main-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+  height: 90%;
+}
+
+.secondary-content {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+/*ABOUT PAGE: MAIN CONTENT */
+.container-bio h2 {
+  color: white;
+  font-size: 140%;
+  line-height: 95%;
+}
+
+.main-content,
+.secondary-content {
+  padding-top: 10px;
+}
+
+.main-content p {
+  color: white;
+  display: inline-block;
+  width: 50%;
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 100%;
+  border-top: 2px solid #2C4C4B;
+  border-bottom: 2px solid #2C4C4B;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.hero-img {
+  width: 45%;
+  border-radius: 50px;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+/*ABOUT PAGE: SECONDARY CONTENT */
+.secondary-content {
+  border-left: 2px solid #2C4C4B;
+  width: 24%;
+  text-align: center;
+}
+
+.secondary-content p {
+  font-size: 140%;
+  line-height: 160%;
+}
+
+.secondary-content article {
+  border-top: 2px solid #2C4C4B;
+  border-bottom: 2px solid #2C4C4B; /* border top/bottom line on cat side*/
+  border-radius: 10px;
+  margin-left: 50px;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+img {
+  transition-duration: 1s;
+  transition-timing-function: ease;
+}
+
+.secondary-content h3, h1,
+.secondary-content p  {
+  color: white;
+  margin: auto;
+}
+
+.resume:hover img {
+  width: 80px;
+}
+
+.github:hover img {
+  width: 80px;
+}
+
+/* CONTACT SECTION */
+.container-info {
+  background: url(../photos/maroonbells.jpg) no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.contact h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.contact p {
+  width: 60%;
+  text-align: center;
+  height: 10%;
+  margin: auto;
+  border-top: 2px solid white;
+  padding-top: 9px;
+}
+
+.infoAboutMe {
+  color: white;
+  font-size: 20px;
+  width: 300px;
+  height: 20px;
+  float: right;
+  text-align: center;
+  margin-top: 120px;
+  line-height: 1.5em;
+}
+.form-container {
+  width: 25%;
+  margin-top: 60px;
+}
+
+.contact-me {
+  width: 200px;
+  height: 190px;
+  padding: 1em;
+  margin: 2em;
+}
+
+.contact-me input, textarea {
+  border-radius: 10px;
+  display: block;
+  background-color: white;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.contact-me input:focus {
+  outline: none;
+  box-shadow: 2px 2px 3px 0px black;
+  transform: scale(1.02);
+}
+
+input[type="submit"], button {
+  outline: none;
+  margin-top: 1em;
+  background-color: #3D6566;
+  border:  none;
+}
+
+/*FOOTER*/
+footer{
+  background: #4F8385;
+  border-top: 3px solid #3D6566;
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  margin-top: 0;
+  padding-top: 0;
+  position: fixed;
+  bottom: 0;
+}
+
+.ul-footer {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.ul-footer li{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#copyright{
+  color: white;
+  float: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
