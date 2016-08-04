@@ -96,7 +96,7 @@ and (max-device-width : 667px) {
     display: inline-block;
     width: 100%;
   }
-  
+
   #hero {
     margin-top: 150px;
   }
@@ -263,7 +263,8 @@ a:hover {
 
 .hero-img {
   width: 45%;
-  border-radius: 50px;
+  height: 500px;
+  border-radius: 15px;
   vertical-align: top;
   margin-left: 15px;
 }
