@@ -7,7 +7,7 @@
   <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/mypstyles.css">
-  <!-- indicates with the CSS file is located -->
+  <link href='https://fonts.googleapis.com/css?family=Dosis:400,200' rel='stylesheet' type='text/css'>  <!-- indicates with the CSS file is located -->
 </head>
 
 <body>
@@ -25,60 +25,84 @@
     </section>
   </header>
 
-<section class="container-content">
-  <article id="project-1">
-    <h3>Project 1: Guess What Number I'm Thinking Of...</h3>
-    <img src="photos/numbers.jpg" alt="project-1" />
-    <p>
-      This was my first project at Turing. I collaborated with Peter Springer and we
-      created a Number Guessing game. Starting out the program generates a random number
-      from 1 to 100 and it's the gamers job to guess it right. The program also assists the gamer
-      with helpful hints on guessing higher or lower. If the gamer gets it correct, the game
-      generates another number but the min and max ranges decreases and increases by 10.
-      <br>
-      <br>
-      In order for this game to work, we used HTML to created everything we need. We also used
-      CSS to add our own creativity in styling the game. Lastly, we used JavaScript to tie everything
-      together in order for it to work properly. There were plenty of trial and error issues but we're
-      stoked on how everything turned out. "
-      <br>
-      <br>
-      <a href="https://07nguyenpaul.github.io/number-guesser/">Guess It Right</a>
-    </p>
-  </article>
+  <section class="container-content">
+    <article id="project-1">
+      <h4>Project 1: Guess What Number I'm Thinking Of...</h4>
+      <img src="photos/numbers.jpg" alt="project-1" />
+      <p>
+        This was my first project at Turing. I collaborated with Peter Springer and we
+        created a Number Guessing game. Starting out the program generates a random number
+        from 1 to 100 and it's the gamers job to guess it right. The program also assists the gamer
+        with helpful hints on guessing higher or lower. If the gamer gets it correct, the game
+        generates another number but the min and max ranges decreases and increases by 10.
+        <br>
+        <br>
+        In order for this game to work, we used HTML to created everything we need. We also used
+        CSS to add our own creativity in styling the game. Lastly, we used JavaScript to tie everything
+        together in order for it to work properly. There were plenty of trial and error issues but we're
+        stoked on how everything turned out. "
+        <br>
+        <br>
+        <a href="https://07nguyenpaul.github.io/number-guesser/">Guess It Right</a>
+      </p>
+    </article>
 
-  <article id="project-2">
-    <h3>Project 2</h3>
-    <img src="photos/murray3.jpg" alt="project-2" />
-    <p>
-      "He gave his father "the talk"
-      <br>
-      <a href="works.html">project-2</a>
-    </p>
-  </article>
+    <article id="project-2">
+      <h4>Project 2: Bookmark List</h4>
+      <img src="photos/BookmarkList.jpg" alt="project-2" />
+      <p>
+        In this project I collaborated with MaryJane Valade and we created a Bookmark List program to test
+        our jquery skills. We created a program that receives 2 inputs, a title and URL. The code
+        specifies that the user has to input a valid URL in order to save it to the list. The program has
+        another feature that enables the user to highlight certain bookmarks and the program records whether
+        it has been read or not. Also, it allows the user to remove bookmarks while updating the application
+        that records read, unread, and total amount of bookmarks listed.
+        <br>
+        <br>
+        <a href="https://mjvalade.github.io/bookmark-list/">Bookmark List</a>
+      </p>
+    </article>
 
-  <article id="project-3">
-    <h3>Project 3</h3>
-    <img src="photos/murray3.jpg" alt="project-3" />
-    <p>
-      "Once a rattlesnake bit him, after 5 days of excruciating pain, the snake finally died
-      "Once a rattlesnake bit him, after 5 days of excruciating pain, the snake finally died"
-      <br>
-      <a href="about.html">project-3</a>
-    </p>
-  </article>
+    <article id="project-3">
+      <h4>Project 3: Idea Box</h4>
+      <img src="photos/IdeaBox.jpg" alt="project-3" />
+      <p>
+        In this project I collaborated with Mike Sausa and we learned about keeping 'server' and 'client'
+        as separate entities. We used JSON and localStorage to store and regenerate ideas inside localStorage.
+        We created a code to hold ideas inside of an array of objects with four attributes: an unique id,
+        title, body and quality ranking. We also enabled a feature that lets the user edit any idea
+        and it would update their localStorage until they removed it. That unique id is hard
+        coded to that specific idea, and we used it to update any changes made to it's title, body,
+        or ranking quality. It was also used to find and display any idea that user is trying to
+        find using the search bar.
+        <br>
+        <br>
+        <a href="https://sikemausa.github.io/idea-box/">Idea Box</a>
+      </p>
+    </article>
 
-  <article id="project-4">
-    <h3>Project 4</h3>
-    <img src="photos/murray3.jpg" alt="project-4" />
-    <p>
-      "When a tree falls in a forest and no one is there, he hears it"
-      <br>
-      <a href="contact.html">project-4</a>
-    </p>
-  </article>
+    <article id="project-4">
+      <h4>Project 4: Snake</h4>
+      <img src="photos/snake.jpg" alt="project-4" />
+      <p>
+        For game time Casey Cross and I decided to make Snake! 🐍 We used jquery, mocha, HTML, JavaScript and CSS.
+        The goal was not only to design but test the implementations of our code. Everyone knows how the game works
+        but there are several parts to designing the game.
+        <br>
+        <br>
+        We first had to render a snake on a canvas and make it
+        move. The next step was to generate food for the snake to eat, but generate it in different locations of
+        the canvas that the snake does not occupy. Next we had to make the snake grew when the food was eaten.
+        This was a the tricky part of the design because each segment of the snake has to follow the piece in front
+        of it. If not, the snake wouldn't zig and zag. Lastly, we had to create code to end the game based on if the
+        snake hits a wall or runs into itself.
+        <br>
+        <br>
+        <a href="https://kccrs.github.io/Snakes">🐍 Snake ✈️</a>
+      </p>
+    </article>
 
-</section>
+  </section>
 </body>
 
 
