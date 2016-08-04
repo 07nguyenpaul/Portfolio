@@ -96,7 +96,7 @@ nav a {
   background-color: #3D6566;
   outline: 3px solid white;
   width: 90%;
-  height: 2100px;
+  height: 2750px;
   margin: auto;
   margin-top: 30px;
   position: relative;
@@ -114,32 +114,53 @@ nav a {
 }
 
 #project-1 {
-height: 490px;
+height: 540px;
 position: relative;
 top: 30px;
 }
 
 #project-2 {
-  height: 430px;
+  height: 450px;
   position: relative;
   top: 60px;
 }
 
+#project-2 img {
+  width: 300px;
+  height: 175px;
+}
+
 #project-3 {
-  height: 450px;
+  height: 440px;
   position: relative;
   top: 90px;
 }
 
+#project-3 img {
+  width: 150px;
+  height: 175px;
+}
+
 #project-4 {
-  height: 500px;
+  height: 490px;
   position: relative;
   top: 120px;
 }
 
+#project-4 img {
+  width: 300px;
+  height: 175px;
+}
+
+#project-5 {
+  height: 550px;
+  position: relative;
+  top: 150px;
+}
+
 .container-content img{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 5%;
   margin: 15px 0px;
   border: 3px solid white;
@@ -365,7 +386,3 @@ footer{
   margin-top: 30px;
   margin-left: 30px;
 }
-
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
